@@ -202,8 +202,8 @@ else:
     print("grade F")
     '''
     
-marks = int(input("Enter the student's marks: "))
-
+#marks = int(input("Enter the student's marks: "))
+'''
 if marks >= 90 and marks <= 100:
     print("Grade: A")
 elif marks >= 80 and marks <= 89:
@@ -216,3 +216,16 @@ elif marks >= 0 and marks < 60:
     print("Grade: F")
 else:
     print("Invalid marks")
+    '''
+    
+age= int(input("enter age"))
+if age <5:
+    print("baby")
+elif age >6 and age<12:
+    print("child")
+elif age >12 and age <18:
+    print("teen")
+elif age >18 and age <50:
+    print("adult")
+else:
+    print("senior citizen")

@@ -1,6 +1,6 @@
 '''
 '''
-student = "shreyas" 
+student = "shreyas" # string 
 roll_no = 45 # integer
 height = 5.10 # float
 it_raining = True # boolean
@@ -9,7 +9,7 @@ i_like_movie = None # nonetype
 a = 10+10j 
 
 print("type of student is ",type(student))
-print("type of roll no",type(roll_no))
+print(" roll no",type(roll_no))
 print("type of height is",type(height))
 print("type of it_raining",type(it_raining))
 print("type of its_cold",type(its_cold))
@@ -23,3 +23,5 @@ print("=============----------")
 print("roll_no after converting to ",float(roll_no))
 
 print('//////////////////////////////')
+#print("height after converting to",integer(height))
+print("roll_no after converting to ",complex(roll_no))
