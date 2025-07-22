@@ -89,5 +89,4 @@ print(set3)
 set4 = {1,1,2,2,3,3,4,4,5,5,"shreyas","shreyas",5+6j,5+6j,True,True}
 print(set4)
 
-set4{5} = 55
-print(set4)
+
